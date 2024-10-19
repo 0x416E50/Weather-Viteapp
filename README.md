@@ -1,3 +1,5 @@
+[Project link](https://r-t-weather-data-processing-system.vercel.app/)
+
 # Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
 ## Problem
@@ -70,7 +72,7 @@ For each received weather update:
 - Simulate weather data exceeding or breaching the thresholds.
 - Verify that alerts are triggered only when a threshold is violated.
 
-## Getting Started
+## Setup
 
 ### Requirements
 
@@ -85,15 +87,15 @@ For each received weather update:
    git clone https://github.com/0x416E50/Weather-Viteapp.git
    cd Weather-Viteapp/frontend
    ```
-
 2. Install Dependencies
 
 ```sh
-    npm i
+    npm install
 ```
-3.run Script
-  ```npm run dev
-```
+3. Run Script
+  ```sh
+  npm run dev
+  ```
 ## Deployment
  Deployed on [Vercel](https://r-t-weather-data-processing-system.vercel.app/)  
 
