@@ -96,3 +96,5 @@ For each received weather update:
 ```
 ## Deployment
  Deployed on [Vercel](https://r-t-weather-data-processing-system.vercel.app/)  
+
+ _Made by @0x416e50_
