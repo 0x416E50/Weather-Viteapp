@@ -1,12 +1,12 @@
 # Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
-## Objective
+## Problem
 
-Develop a real-time data processing system to monitor weather conditions and provide summarized insights using rollups and aggregates. The system will utilize data from the OpenWeatherMap API (https://openweathermap.org/).
+Develop a real-time data processing system to monitor weather conditions and provide summarized insights using aggregates and rollups. The system will be using data from the OpenWeatherMap API (https://openweathermap.org/).
 
 ## Data Source
 
-The system will continuously retrieve weather data from the OpenWeatherMap API. You will need to sign up for a free API key to access the data. The API provides various weather parameters, and for this assignment, we will focus on:
+The system will  retrieve weather data from the OpenWeatherMap API. You will need to sign up for a free API key to access the data. The API provides various weather parameters, and for this assignment, we will focus on:
 
 - **main**: Main weather condition (e.g., Rain, Snow, Clear)
 - **temp**: Current temperature in Centigrade
@@ -72,18 +72,18 @@ For each received weather update:
 
 ## Getting Started
 
-### Prerequisites
+### Requirements
 
 - ReactJs
-- OpenWeatherMap API key
+- OpenWeatherMap API key from [here](https://openweathermap.org/)
 
 
 ### Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/username/weather-monitoring-system.git
-   cd weather-wen-app/frontend
+   git clone https://github.com/0x416E50/Weather-Viteapp.git
+   cd Weather-Viteapp/frontend
    ```
 
 2. Install Dependencies
@@ -94,5 +94,5 @@ For each received weather update:
 3.run Script
   ```npm run dev
 ```
-## Viewing Visualizations
--The application will display daily weather summaries, historical trends, and triggered alerts on the web interface.
+## Deployment
+ Deployed on [Vercel](https://r-t-weather-data-processing-system.vercel.app/)  
